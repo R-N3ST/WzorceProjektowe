@@ -60,7 +60,9 @@ Test Case5: Ensure that the User can choose the brewing temperature.
 # Issue found: The user cannot choose the brewing temperature
 Aforementioned issue we can report in the tracking tool like Jira:
 
-Environment: Visual Studio Code / Build: Not-known
+![Issue](https://github.com/R-N3ST/WzorceProjektowe/assets/110934994/cafc2a91-a6bc-432e-8d85-5c2151f0627b)
+
+Environment: Windows 10 / Build: 22H2_Version
 
 Input Data:
 Espresso, Latte, Cappucino, Mocha 
@@ -81,8 +83,12 @@ The Coffee Machine temperature function works properly for all related cofee typ
 Attachment: Screenshot or Video
 
 ### We can fix this issue by adding input function that will add the value to the brewing bar process.
-
+When the issue will be fixed the QA should retest the functionality.
+* Adding new functionality in the future should result in regression of previous Coffee Machine's functionality.
 # Used tools and libraries: 
+
+Visual Studio Code - combines the simplicity of a source code editor with powerful developer tooling
+
 unittest - It is a testing framework that is part of the Python standard library. It provides a set of tools and assertions for writing and running tests.
 
 unittest.mock - It is a module within the unittest framework that provides mocking capabilities. It allows you to replace objects and control their behavior during tests, making it easier to isolate components and simulate certain conditions.
